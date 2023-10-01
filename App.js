@@ -4,10 +4,8 @@ import Login from "./App/Pages/Login";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>app!</Text>
+    <View>
       <Login />
-      <StatusBar style="auto" />
     </View>
   );
 }
